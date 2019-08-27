@@ -1,0 +1,8 @@
+{% if version == "E3.2" %}
+   {{ lookup('file', '~/playbooks/tmp.txt') }}
+{% else %}
+   {{ variable2 }}
+{% endif %}
+{{ variable1 }}
+No effects on this line
+{{ variable2 }}

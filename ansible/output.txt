@@ -1,0 +1,7 @@
+   djfdkfjsdkl;fjsda;fksdl;fkdsafk;l
+dkfjdfsdjkfsdjfsdf
+        fsdfsdafsdf
+ads     fsdfdsfsdfsdafasdf
+<Hello> Thisi s a </Hello> <P> </p>
+No effects on this line
+My first playbook using template

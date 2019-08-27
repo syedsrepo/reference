@@ -1,0 +1,12 @@
+- hosts: all
+  vars:
+    version: 'E3.2' 
+    variable1: '<Hello> Thisi s a </Hello>
+		  <P>
+		  </p>'
+    variable2: 'My first playbook using template'
+  tasks:
+    - name: Basic Template Example
+      template:
+        src: example1.j2
+        dest: ~/playbooks/output.txt
