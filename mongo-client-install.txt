@@ -11,3 +11,7 @@ $ mongo --version
 
 connecting
 $ mongo <FQDN>:<PORT>/<database> -u <user> -p <password>
+
+
+#Exporting mongodb table
+mongoexport --host 10.200.202.14 --db cnap --collection cnap_counters --out cnap_counters.json --forceTableScan
