@@ -1,0 +1,4 @@
+sudo mount -t vboxsf Ubuntu-Share ~/share/
+
+Ubuntu-Share is the shared folder in VirtualBox Devices->Shared Folder
+~/share/ - Is the directory on the ubuntu system guest.
